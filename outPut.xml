@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<form>
+    <host>localhost</host>
+    <port>9200</port>
+    <index>test-migrate</index>
+    <document_type>data</document_type>
+</form>
