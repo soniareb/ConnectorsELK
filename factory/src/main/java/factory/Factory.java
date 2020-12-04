@@ -12,7 +12,7 @@ import java.util.Map.Entry;
 import registry.Registry;
 
 public class Factory {
-	public Connecteur getConnecteur(String name) {
+	public Connecteur finder(String name) {
 		String path;
 		String className;
 		Connecteur connecteur;

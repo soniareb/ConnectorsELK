@@ -7,7 +7,7 @@ public class test {
 	public static void main(String[] args) {
 		
 		Factory fac = new Factory();
-		Connecteur con = fac.getConnecteur("mysql");
+		Connecteur con = fac.finder("mysql");
 		
 		
 		

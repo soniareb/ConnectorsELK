@@ -1,4 +1,4 @@
-connectors each connector capable of:
+Settables connectors each connector capable of:
 - Consult the data source
 - Configure the connection between the data source and the warehouse
 - Extract data in real time
