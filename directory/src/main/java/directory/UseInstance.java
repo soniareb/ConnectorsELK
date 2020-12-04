@@ -20,7 +20,7 @@ public class UseInstance {
 				for (int i = 0; i < list.length; i++) {
 		        try{
 		            filesource=new FileInputStream(path+"/"+ list[i].getName());
-		            fileDestination=new FileOutputStream("/home/sonia/Téléchargements/ELK/logstash-6.2.4/"+ list[i].getName());
+		            fileDestination=new FileOutputStream("/etc/path/"+ list[i].getName());
 		            byte buffer[]=new byte[512*1024];
 		            int nblecture;
 		            while((nblecture=filesource.read(buffer))!=-1){
